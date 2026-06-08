@@ -1,0 +1,20 @@
+[
+  {
+    "query": "what is motion?",
+    "level": 3,
+    "expectedSource": "",
+    "expectedKeywords": ["motion", "position", "displacement"]
+  },
+  {
+    "query": "difference between Newton's first and second law",
+    "level": 3,
+    "expectedSource": "",
+    "expectedKeywords": ["newton", "inertia", "force", "acceleration"]
+  },
+  {
+    "query": "define velocity",
+    "level": 3,
+    "expectedSource": "",
+    "expectedKeywords": ["velocity", "displacement", "rate"]
+  }
+]

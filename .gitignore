@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Env / secrets
+.env
+backend/.env
+
+# Runtime
+backend/uploads/
+models/
+*.log
+
+# Node / build (frontend)
+node_modules/
+dist/
+.vite/
+
+# Stray PDFs / test artifacts
+*.pdf
+scripts/_*
+
+# OS
+.DS_Store
+Thumbs.db
