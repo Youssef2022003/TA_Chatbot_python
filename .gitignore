@@ -23,6 +23,12 @@ dist/
 *.pdf
 scripts/_*
 
+# Internal docs — kept locally, not published to GitHub
+ARCHITECTURE.md
+CLAUDE.md
+CODE_WALKTHROUGH.md
+DEPLOYMENT_AND_PRICING.md
+
 # OS
 .DS_Store
 Thumbs.db
