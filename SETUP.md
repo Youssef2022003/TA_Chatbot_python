@@ -136,5 +136,4 @@ cd backend
 ---
 
 That's it — same setup the original author used. See **[README.md](./README.md)** for the
-stack overview and **[ARCHITECTURE.md](./ARCHITECTURE.md)** / **[CODE_WALKTHROUGH.md](./CODE_WALKTHROUGH.md)**
-to understand how it works.
+stack overview and how it works.

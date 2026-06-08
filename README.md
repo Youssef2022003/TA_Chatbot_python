@@ -6,11 +6,6 @@ physics teaching assistant). Built to `../physics-ta/PHYSICSTA_V2_HANDOFF.md`. I
 contract (handoff §8).
 
 > **[SETUP.md](./SETUP.md)** — friend-proof, step-by-step "clone and run it" guide.
-> **[ARCHITECTURE.md](./ARCHITECTURE.md)** — every feature with examples, end-to-end
-> flows, why-this-vs-alternatives, and the path to production (incl. paid APIs).
-> **[CODE_WALKTHROUGH.md](./CODE_WALKTHROUGH.md)** — file-by-file tour of the actual
-> code: key functions, data structures, and the tricky algorithms line-by-line.
-> **[CLAUDE.md](./CLAUDE.md)** — live "done vs missing" status + per-file map.
 
 ## Stack (all free / OSS)
 
@@ -92,5 +87,7 @@ to tune against the eval harness.
 
 ## Project layout
 
-See [CLAUDE.md](./CLAUDE.md) for the annotated file map and the full
-implemented / missing breakdown.
+The backend lives in `backend/app/` — `api/` (chat, ingest, sessions routes),
+`services/` (retrieval, rag, embeddings, reranker, chunking, llm, …), plus
+`config.py`, `db.py`, `models.py`, and `schemas.py`. The bundled React frontend
+is in `frontend/`.
